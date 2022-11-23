@@ -19,7 +19,11 @@ public class FindMaximumNumbers<T extends Comparable<T>> {
 			max = n3;
 		if (n4.compareTo(max) > 0)
 			max = n4;
-		System.out.println(max);
+		printMax(max);
+	}
+
+	void printMax(T value) {
+		System.out.println("maximum = " + value);
 	}
 
 	public static void main(String[] args) {
